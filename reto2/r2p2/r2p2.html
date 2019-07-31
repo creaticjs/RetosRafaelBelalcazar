@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>2. Calculo de la fuerza gravitacional entre dos masas separadas una distancia 'd'.</p>
+
+        <div class="row">
+            <form action="">
+                <div class="input-field">
+                    <input id="masa1" type="text" required>
+                    <label for="masa1">Masa 1</label>
+                </div>
+                <div class="input-field">
+                    <input id="masa2" type="text" required>
+                    <label for="masa2">Masa 2</label>
+                </div>
+                <div class="input-field">
+                    <input id="distance" type="text" required>
+                    <label for="distance">Distance</label>
+                </div>
+                <button type="button" class="btn" onclick="findForce()">Calcular</button>
+            </form>
+            <p>La fuerza gravitacional en dinas es <span id="result"></span> </p>
+        </div>
+    </div>
+    <script src="r2p2.js"></script>
+
+</body>
+
+</html>

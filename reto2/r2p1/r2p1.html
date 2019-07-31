@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <p>1. Cuatro enteros entre 0 y 100 representan las puntuaciones de un estudiante de un curso de informática.</p>
+        <p>Escribir un programa para encontrar la media de esas puntuaciones y visualizar una tabla de notas</p>
+        <div class="row">
+            <form action="">
+                <div class="input-field">
+                    <input id="nota1" type="number" min="0" max="100" required>
+                    <label for="nota1">Nota 1</label>
+                </div>
+                <div class="input-field">
+                    <input id="nota2" type="number" min="0" max="100" required>
+                    <label for="nota2">Nota 2</label>
+                </div>
+                <div class="input-field">
+                    <input id="nota3" type="number" min="0" max="100" required>
+                    <label for="nota3">Nota 3</label>
+                </div>
+                <div class="input-field">
+                    <input id="nota4" type="number" min="0" max="100" required>
+                    <label for="nota4">Nota 4</label>
+                </div>
+                <button type="button" class="btn" onclick="mean()">Calcular</button>
+            </form>
+            <p id="result"></p>
+            <table>
+                <thead>
+                    <th>Media</th>
+                    <th>Puntuación</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>90-100</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>80-89</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>70-79</td>
+                        <td>C</td>
+                    </tr>
+                    <tr>
+                        <td>60-69</td>
+                        <td>D</td>
+                    </tr>
+                    <tr>
+                        <td>0-59</td>
+                        <td>E</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="r2p1.js"></script>
+</body>
+
+</html>
