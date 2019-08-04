@@ -11,7 +11,7 @@ formatDate = () => {
 convertMonth = (day, month, year) => {
     if ((day && year) && day >= 1 && day <= 31) {
         switch (month) {
-            case 'enero':
+            case 'enero':g
                 document.getElementById('result').innerHTML = `${day} 1 ${year}`
                 break
             case 'febrero':

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Escribe un número en letras y termina con un "."</h1>
+    <form action="">
+        <div class="input-field">
+            <label for="number"></label>
+            <input id="number" oninput="textToNumber()" type="text" required placeholder="Ej: ciento diez.">
+        </div>
+
+    </form>
+    <button class="btn btn-primary" onclick="textToNumber()">Convertir</button>
+    <p id="result"></p>
+    <script src="r2p8.js"></script>
+
+</body>
+
+</html>
